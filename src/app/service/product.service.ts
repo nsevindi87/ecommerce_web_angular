@@ -11,4 +11,8 @@ export class ProductService {
   getAllProducts():Observable<any[]>{
     return this.http.get<any>("https://onlinetestapi.gerasim.in/api/Ecomm/GetAllProducts")
   }
+
+  addToCart(obj:any):Observable<any>{
+    return this.http.get<any>("https://onlinetestapi.gerasim.in/api/Ecomm/GetAllProducts", obj)
+  }
 }
