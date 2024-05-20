@@ -6,6 +6,10 @@ import { SaleComponent } from './pages/sale/sale.component';
 
 const routes: Routes = [
   {
+    path: '',
+    pathMatch: 'full',
+    component: HomeComponent
+  },{
     path: 'products',
     component: HomeComponent
   },{
