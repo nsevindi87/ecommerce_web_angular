@@ -1,8 +1,222 @@
-<div class="card" style="width: 18rem;">
-  <img class="card-img-top" src="..." alt="Card image cap">
-  <div class="card-body">
-    <h5 class="card-title">Card title</h5>
-    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-    <a href="#" class="btn btn-primary">Go somewhere</a>
+<header>
+  <!-- NavBar -->
+  <nav class="navbar navbar-expand-lg navbar-light bg-white ">
+    <div class="container">
+      <!-- logo -->
+      <a class="navbar-brand fs-2 fw-bold " href="#"><i class="fa fa-cart-shopping fs-2"
+          style="color: #f54242;"></i><span class="textBlur">Shopwise</span></a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <!--Toggle  -->
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <!-- Nav Items -->
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav ms-auto mb-2 mb-lg-0  text-center ">
+
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle fw-semibold text-uppercase  me-1 text-danger" href="#"
+              id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              home
+            </a>
+            <ul class="dropdown-menu  " aria-labelledby="navbarDropdown">
+              <li><a class="dropdown-item " href="shop.html">Fashion 1</a></li>
+              <li><a class="dropdown-item" href="#">Fashion 2</a></li>
+              <li><a class="dropdown-item" href="#">furniture 1</a></li>
+              <li><a class="dropdown-item" href="#">furniture 2</a></li>
+              <li><a class="dropdown-item" href="#">Electronics 1</a></li>
+              <li><a class="dropdown-item" href="#">Electronics 1</a></li>
+            </ul>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle redHover fw-semibold text-uppercase text-black  me-1" href="#"
+              id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              pages
+            </a>
+            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <li><a class="dropdown-item" href="#">About Us</a></li>
+              <li><a class="dropdown-item" href="#">Cotact Us</a></li>
+
+              <li><a class="dropdown-item" href="#">Terms and Conditions</a></li>
+            </ul>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle fw-semibold text-uppercase text-black  me-1" href="#" id="navbarDropdown"
+              role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              product
+            </a>
+            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <li><a class="dropdown-item" href="#">Women's</a></li>
+              <li><a class="dropdown-item" href="#">Men's</a></li>
+              <li><a class="dropdown-item" href="#">Kids</a></li>
+              <li><a class="dropdown-item" href="#">Accessoires</a></li>
+
+            </ul>
+          </li>
+          <li class="nav-item dropdown fw-semibold text-uppercase text-black  me-1">
+            <a class="nav-link dropdown-toggle fw-semibold text-uppercase text-black  me-1" href="#" id="navbarDropdown"
+              role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              blog
+            </a>
+            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <li><a class="dropdown-item" href="#">Grid</a></li>
+              <li><a class="dropdown-item" href="#">List</a></li>
+
+              <li><a class="dropdown-item" href="#">Singal Post</a></li>
+            </ul>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle fw-semibold text-uppercase text-black  me-1" href="#" id="navbarDropdown"
+              role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              shop
+            </a>
+            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <li><a class="dropdown-item" href="#">Shop Page Layout</a></li>
+              <li><a class="dropdown-item" href="#">Other Page</a></li>
+
+              <li><a class="dropdown-item" href="#">Product Page</a></li>
+            </ul>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link fw-semibold text-uppercase text-black  me-1" href="#">Contact us</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Search</a>
+          </li>
+          <li class="nav-item dropdown position-relative d-inline-block ">
+            <a class="nav-link" href="#">Cart
+              <span class="position-absolute  translate-middle badge rounded-pill bg-danger">
+                2
+              </span>
+            </a>
+            <ul class="dropdown-menu  menuOnLeft rounded-0 mt-2" aria-labelledby="navbarDropdown">
+              <li class="p-2">
+                <div class="d-flex w-100 border-bottom justify-content-evenly">
+                  <img class="img-fluid h-25 w-25 p-2" src="../ShopWise/product img/cartImg1.jfif" alt="">
+                  <div>
+                    <a href="#" class="text-decoration-none text-black fw-semibold">
+                      <p class="m-0 p-0">Varibale Product 001</p>
+                    </a>
+                    <p>1 <i class="fa-solid fa-xmark" style="color: #0d0d0d;"></i> $ 78.00</p>
+                  </div>
+                  <button type="button" class="btn fs-5 closeBtn"><i class="fa-solid fa-xmark"></i></button>
+                </div>
+              </li>
+              <li class="p-2">
+                <div class="d-flex w-100 border-bottom justify-content-evenly">
+
+                  <img class="img-fluid h-25 w-25 p-2" src="../ShopWise/product img/cartImg2.jfif" alt="">
+                  <div>
+                    <a href="#" class="text-decoration-none text-black fw-semibold">
+                      <p class="m-0 p-0">Ornare consequat</p>
+                    </a>
+                    <p>1 <i class="fa-solid fa-xmark" style="color: #0d0d0d;"></i> $ 81.00</p>
+                  </div>
+
+                  <button type="button" class="btn fs-5 closeBtn"><i class="fa-solid fa-xmark"></i></button>
+
+                </div>
+              </li>
+              <li class="p-2">
+                <div class=" w-100 ">
+                  <div class="d-flex justify-content-between">
+                    <h6>SubTotal :</h6>
+                    <h6>$159.00</h6>
+                  </div>
+                  <div class="d-flex justify-content-evenly mt-2">
+                    <button class="btn btn-dark rounded-0 px-3">View Cart</button>
+                    <button class="btn btn-danger rounded-0 px-3"><a class="text-decoration-none text-black"
+                        href="checkout.html">Checkout</a></button>
+                  </div>
+
+                </div>
+              </li>
+            </ul>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+</header>
+<section>
+  <div class="container mt-5">
+    <div class="row">
+      <!-- Billing Address -->
+      <div class="col-lg-8 col-md-12 mb-3">
+        <div class="card shadow">
+          <div class="card-header bg-danger bg-opacity-25">
+            <h4>Billing Address</h4>
+          </div>
+          <div class="card-body mb-5">
+            <!-- form start -->
+            <div class="row">
+
+              <div class="col-lg-6 col-md-6">
+                <input type="text" placeholder="City " class="form-control m-2">
+              </div>
+              <div class="col-lg-6 col-md-6">
+                <input type="text" placeholder="Pincode " class="form-control m-2">
+              </div>
+              <div class="col-lg-6 col-md-6">
+                <textarea placeholder="Address Line 1 " class="form-control m-2" rows="3"></textarea>
+              </div>
+              <div class="col-lg-6 col-md-6">
+                <textarea placeholder="Address Line  2" class="form-control m-2" rows="3"></textarea>
+              </div>
+              <div class="col-lg-6 col-md-6">
+                <textarea placeholder="Landmark" class="form-control m-2" rows="3"></textarea>
+              </div>
+
+
+
+            </div>
+            <!-- form end -->
+          </div>
+        </div>
+      </div>
+      <!-- Your Order -->
+      <div class="col-lg-4 col-md-12">
+        <div class="card shadow ">
+          <div class="card-header  bg-danger bg-opacity-25">
+            <h4>Your Order</h4>
+          </div>
+          <div class="card-body">
+            <div class="border-top d-flex mt-2">
+              <img class="img-fluid h-25 w-25 p-2 " src="../ShopWise/product img/cartImg1.jfif" alt="">
+              <div class="ps-3">
+                <p class="p-0 m-0 fw-semibold">Varibale Product 001</p>
+                <p class="p-0 m-0">$78.00</p>
+                <p class="text-start mt-4"><button class="btn">QTY : <b>1</b> </button></p>
+              </div>
+            </div>
+            <div class="border-top d-flex mt-2">
+              <img class="img-fluid h-25 w-25 p-2 " src="../ShopWise/product img/cartImg2.jfif" alt="">
+              <div class="ps-3">
+                <p class="p-0 m-0 fw-semibold">Ornare consequat</p>
+                <p class="p-0 m-0">$81.00</p>
+                <p class="text-start mt-4"><button class="btn">QTY : <b>1</b></button></p>
+              </div>
+            </div>
+            <div class="border-top ">
+
+
+              <div class=" border-top ">
+                <div class="d-flex justify-content-between mt-2">
+                  <p class="fw-semibold">Total :</p>
+                  <p class="fw-semibold">$169.00</p>
+                </div>
+              </div>
+              <div class="row border-top ">
+                <div class="col-12 text-center mt-2">
+                  <div class="w-100 bg-black">
+                    <button class="btn text-white rounded-0 ">Place Order</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
   </div>
-</div>
+</section>
