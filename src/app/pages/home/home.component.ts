@@ -30,9 +30,12 @@ export class HomeComponent implements OnInit {
   }
 
   addItemToCart(productId:number){
-    this.cartObj.productId = productId;
+    this.cartObj.ProductId = productId;
     this.productService.addToCart(this.cartObj).subscribe((result:any)=>{
-      this.productList = result.data;
+      if(result.result){
+        alert("Product added successfully")
+        this.productService.cartAddedSubject.next(true)
+      }
   })
   }
 
